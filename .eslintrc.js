@@ -32,7 +32,6 @@ module.exports = {
     'import/no-extraneous-dependencies': 'error',
     'import/no-default-export': 'error',
     'import/newline-after-import': 'error',
-    'no-restricted-imports': ['error', 'lodash'],
     'no-return-await': 'error',
     'prefer-rest-params': 'off',
   },
