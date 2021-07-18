@@ -24,7 +24,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "typecheck": "tsc --noEmit",
-    "format": "prettier \"src/**/*.{ts,tsx,json}\" \"*.{js,json}\" --list-different",
+    "format": "prettier \"src/**/*.{ts,tsx,json}\" \"*.{js,json}\" \"!.pnp.js\" --list-different",
     "format:fix": "yarn format --write",
     "preversion": "yarn config set version-git-message \"chore: bump version to %s\"",
     "postversion": "git push --tags && git push"
